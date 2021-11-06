@@ -78,7 +78,7 @@
     </th>
   </tr>
 
-  <% @the_actor.character.each do |a_character| %>
+  <% @the_actor.characters.each do |a_character| %>
     
 
     <tr>
@@ -91,7 +91,7 @@
       </td>
 
       <td>
-        <%=a_character.movie.title%>
+        <%=a_character.movie.director.name%>
       </td>
 
       <td>
